@@ -1,0 +1,9 @@
+Name: Justin Langston
+
+-/10 Be able to display image on screen using SDL. 
+-/10 Be able to handle input from key presses and output a result to the screen. 
+-/10 Be able to render geometric objects onto the screen. 
+-/5  Have basic classes down for building our game, basic makefile and some basic textures/graphics for using in our game. Make things clean for making our game large scaled OOP. 
+-/5  Be able to get moving sprites on the screen.
+
+All of the above should be supplemented by utilizing the lazyfoo SDL2 library tutorials: http://lazyfoo.net/tutorials/SDL/ . The main goal of this week should be getting familiar with SDL and how we can use it to make games.
