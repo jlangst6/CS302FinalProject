@@ -12,4 +12,4 @@ Time Log:
 
 Time:	Started:		Stopped:		Date:			Worked On:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-2hrs	2:30 PM			4:30 PM			3/25/2019		Rubric, Library Research
+2hrs	2:30 PM			4:30 PM			3/25/2019		Rubric, Library Research, Lazyfoo tutorial #1
