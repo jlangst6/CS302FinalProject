@@ -1,0 +1,15 @@
+Damian Seals
+
+Week of Challenge 08
+
+-/9		Create a game board/space for the game to take place on
+-/9		Create a sprite for the player on screen
+-/7		Make that sprite moveable by the player
+-/5		Make the player's movement bounded by the screen border
+-/10	Create enemy sprites and give them movement
+
+Time Log:
+
+Time:	Started:		Stopped:		Date:			Worked On:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2hrs	2:30 PM			4:30 PM			3/25/2019		Rubric, Library Research
