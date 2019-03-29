@@ -33,3 +33,8 @@ even think about Event Handling.
 	The only concern of mine is how I feel like the Challenge writeup is a little misleading. Am I
 supposed to upload my code? Am I supposed to have a total of one rubric or two? Does my time log need
 to be in a seperate file? Other than that, everything is great!
+
+Plan for next week:
+	Definitely get a sprite on the screen. That is my small goal for next week, and it seems
+approachable. Other than that, I'd like to make none of my variables global and put my code
+into functions so that it's more legible and easier to use.
