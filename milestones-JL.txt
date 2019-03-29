@@ -1,5 +1,7 @@
 Name: Justin Langston
 
+-Challenge 08-
+Rubric:
 -/10 Be able to display image on screen using SDL. 
 -/10 Be able to handle input from key presses and output a result to the screen. 
 -/10 Be able to render geometric objects onto the screen. 
@@ -8,7 +10,23 @@ Name: Justin Langston
 
 All of the above should be supplemented by utilizing the lazyfoo SDL2 library tutorials: http://lazyfoo.net/tutorials/SDL/ . The main goal of this week should be getting familiar with SDL and how we can use it to make games.
 
-Time Log:
 
-2hrs: 08.00am - 10.00am Mar 25
-1hr : 01.00pm - 02.00pm Mar 27
+Time Log:
+2hrs: 08.00am - 10.00am Mar 25 // Getting SDL setup and Lazyfoo tutorial 1
+1hr : 01.00pm - 02.00pm Mar 27 // Lazyfoo tutorial 2
+3hrs: 10.00am - 01.00pm Mar 29 // Lazyfoo tutuorials 3-4
+
+
+Compialable task links: 
+ecexutible    :  https://github.com/jlangst6/CS302FinalProject/blob/master/JL/Challenge08/game
+code directory:  https://github.com/jlangst6/CS302FinalProject/tree/master/JL/Challenge08
+progject repo :  https://github.com/jlangst6/CS302FinalProject
+
+
+Challenge08 Report:
+Out of the things on my rubric, the things that I was able to complete were being able to display an image on the screen, being able to handle input from key presses and output a result accordingly, and get a simple makefile complete. The things that I wasn't able to achieve on my rubric was being able to render geometric objects onto the screen, getting the basic classes and graphics for the game made, and getting a moving sprite on the screen. I think I was little too ambitious in thinking of what I could get done in 6 hours, but I was still able to do quite a bit and understand more about how game programming with SDL2 works. I feel like now I have a better understanding of what is and isn't possible for my goals of next week. The only problem that I ran into while doing the lazyfoo tutorials was figuring out how I can fit all the tutorials together that will work for our game, other than that things went well. My compialable task consists of a simple program that displays an image in front of a colored background and according to the keys pressed, the color of the background changes or the program exits. It is a pretty basic program, but it gave me an idea of how games work on a bigger scale behind the scenes in code with things like the event que. 
+
+
+Plan For Next Week:
+The main goal for next week should be to get moving sprites on the screen, and also to get down our basic classes and the structure of how we intend to build our game.
+
