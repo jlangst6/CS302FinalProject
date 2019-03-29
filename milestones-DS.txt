@@ -13,3 +13,23 @@ Time Log:
 Time:	Started:		Stopped:		Date:			Worked On:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 2hrs	2:30 PM			4:30 PM			3/25/2019		Rubric, Library Research, Lazyfoo tutorial #1
+4hrs	3:00 PM			7:00 PM			3/28/2019		Lazyfoo Tutorials #1 through #4
+
+Challenge08 report:
+
+	I didn't really get started on this challenge until later than I would have liked. At first I was
+a little confused, because I could get my build (I'm using Xcode) to succeed, but I couldn't get a
+window to pop up. So, I looked around and found a similar resource for learning SDL on Youtube that
+helped me fix my problem. Once that was fixed, it was smooth sailing from there. I got all the way
+through tutorial 4, and although my code is really just a modification of the Lazyfoo tutorials at
+this point, I really feel as though I'm grasping how all this works. I'm actually having a lot of fun
+learning all of this stuff.
+
+	I noticed that my compilable task only meets one of the points on my rubric above, which is sad.
+This has made me realize that I was really overshooting it for the length of only one week. I didn't
+realize a week ago what all had to happen before I could even get a sprite on the board. I didn't
+even think about Event Handling.
+
+	The only concern of mine is how I feel like the Challenge writeup is a little misleading. Am I
+supposed to upload my code? Am I supposed to have a total of one rubric or two? Does my time log need
+to be in a seperate file? Other than that, everything is great!
