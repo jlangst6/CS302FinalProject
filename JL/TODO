@@ -1,0 +1,15 @@
+* make classes for bullet, player, etc
+* make lazer shoot
+* make asteroids come down
+* collision detection
+_ make random spawing of asteroids better
+
+POST cleanups:
+
+_ Make scrolling background
+* Make Game over screen
+
+make final screen for when you die that says:
+GAME OVER...
+FINAL SCORE:
+2000000

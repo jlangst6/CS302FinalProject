@@ -3,12 +3,10 @@
 #include <SDL2/SDL.h>
 #include <SDL2/SDL_ttf.h>
 
-#ifndef ASTEROIDS_H
-#define ASTEROIDS_H
+#ifndef GAME_H
+#define GAME_H
 
 using namespace std;
-
-// SDL2 texture class, may rename to animation. for actually putting our entities onto the screen
 
 class Entity {
 	public:
@@ -17,29 +15,39 @@ class Entity {
 	string name;
 	bool life;
 
-	int xPos, yPos;
+	float xPos=0, yPos=0;
 	bool init(string filename, SDL_Renderer *renderer, int startX, int startY, int width, int height); // will make texture and rectangle from filename
-	void update(SDL_Renderer* renderer); // will render texture to screen, also check if life is true or not, if not will delete rect and texture
 	Entity();
 	~Entity();
+	virtual void update(SDL_Renderer *){};
 
 };
 
 
 
 class Player : public Entity {
-		
+	public:
+	Player();
+	~Player();
+	void update(SDL_Renderer* renderer); // will render texture to screen, also check if life is true or not, if not will delete rect and texture
 };
 
 
 class Asteroid : public Entity {
-
+	// maybe need to have each entity have their own update class
+	public:
+	Asteroid();	
+	~Asteroid();	
+	void update(SDL_Renderer* renderer); // will render texture to screen, also check if life is true or not, if not will delete rect and texture
 
 
 };
 
-class Laser : public Entity {
-
+class Lazer : public Entity {
+	public:
+	Lazer();			
+	~Lazer();			
+	void update(SDL_Renderer* renderer); // will render texture to screen, also check if life is true or not, if not will delete rect and texture
 
 
 };
@@ -52,6 +60,7 @@ class ScoreKeeper{
 		SDL_Color White = {255, 255, 255};
 		SDL_Texture* Message1;
 		SDL_Texture* Message2;
+		SDL_Texture* Message3;
 
 		SDL_Rect Message1Rect;
 		SDL_Rect Message2Rect;
@@ -60,8 +69,10 @@ class ScoreKeeper{
 		SDL_Surface *tmpSurface2;
 
 		void render(SDL_Renderer *renderer, TTF_Font *font);
+		void gameOver(SDL_Renderer *renderer, TTF_Font *font);
 
 		ScoreKeeper();
+		~ScoreKeeper();
 };
 
 #endif
