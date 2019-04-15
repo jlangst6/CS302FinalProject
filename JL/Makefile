@@ -2,7 +2,7 @@ OBJS = main.cpp
 
 CC = g++
 
-COMPILER_FLAGS = -w
+COMPILER_FLAGS = -w -std=c++11
 
 LINKER_FLAGS = -lSDL2 -lSDL2_image -lSDL2_ttf
 
