@@ -84,7 +84,7 @@ int main(){
 						break;
 					case SDLK_UP:
 					case SDLK_SPACE:
-						printf("FIRE\n");
+			//			printf("FIRE\n");
 						tmp = new Lazer;
 						tmp->init("media/lazer.png", gRenderer, player.r.x+30, player.r.y+1, 10, 30);
 						entities.insert(tmp);
@@ -139,10 +139,13 @@ int main(){
 					}
 				}
 
-				if(i->name == "asteroid" && i->r.y >= SCREEN_HEIGHT && i->life != 0) numAsteroids++;
-				if(i->r.y <= 0 || i->r.y >= SCREEN_HEIGHT) i->life=0;
-
-			}
+				if(i->name == "asteroid" && i->r.y >= SCREEN_HEIGHT -50 && i->life != 0) numAsteroids++;
+				if(i->r.y <= 0 || i->r.y >= SCREEN_HEIGHT - 50) i->life=0;  
+					
+					
+			
+		
+		}
 		}
 
 		for(int i=0; i<numAsteroids ; i++){
@@ -186,9 +189,10 @@ int main(){
 		// Update Screen
 		SDL_RenderPresent( gRenderer );
 
-		printf("%lu\n",entities.size());
+//		printf("%lu\n",entities.size());
 
 		if(! player.life ) break;
+		SDL_Delay(16);
 	}	
 /*
 	for(auto i = entities.begin(); i != entities.end(); ++i){
@@ -207,17 +211,8 @@ int main(){
 	sk.gameOver(gRenderer, Calibre);
 	SDL_RenderPresent( gRenderer );
 
-	quit = false;
-	while(!quit){
-		while(SDL_PollEvent( &e ) != 0){
-			if(e.type == SDL_QUIT){
-				quit = true;
-			}
-
-		}
-	}
-
-
+	
+	SDL_Delay(4000);
 	close();
 
 }

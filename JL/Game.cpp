@@ -82,9 +82,10 @@ Player::~Player(){
 
 void Lazer::update(SDL_Renderer *renderer){
 	if(life == false) return;
-	yPos-=.025;
-	r.y+=yPos;
-	if(yPos < 1) yPos=0;
+//	yPos-=.025;
+//	r.y+=yPos;
+//	if(yPos < 1) yPos=0;
+	r.y-=20;
 	SDL_RenderCopy(renderer, t, NULL, &r);
 }
 
@@ -101,9 +102,13 @@ Lazer::~Lazer(){
 
 void Asteroid::update(SDL_Renderer *renderer){
 	if(life == false) return;
-	yPos+=.015;
-	r.y+=yPos;
-	if(yPos > 1) yPos=0;
+//	yPos+=.015;
+//	r.y+=yPos;
+//	if(yPos > 1) yPos=0;
+	add++;
+	if(add % 3 == 0) r.y++;
+	//r.y += add%2;
+	//r.y+=1;
 	SDL_RenderCopy(renderer, t, NULL, &r);
 }
 

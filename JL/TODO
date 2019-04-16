@@ -3,6 +3,7 @@
 * make asteroids come down
 * collision detection
 _ make random spawing of asteroids better
+_ make it work with timer, not cpu
 
 POST cleanups:
 

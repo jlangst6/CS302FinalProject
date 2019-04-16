@@ -16,6 +16,7 @@ class Entity {
 	bool life;
 
 	float xPos=0, yPos=0;
+	int add=0;
 	bool init(string filename, SDL_Renderer *renderer, int startX, int startY, int width, int height); // will make texture and rectangle from filename
 	Entity();
 	~Entity();
