@@ -7,7 +7,7 @@ To make this game, you need to have the following libraries/programs installed:
 * SDL2 Image library
 * SDL2 TTF library
 
-After you have all of those installed, just run make to compile the game and then type ./game to start playing.
+After you have all of those installed, just run make to compile the game and then type ./ssg to start playing.
 
 CONTROLS:
 * Move Left : left arrow key
