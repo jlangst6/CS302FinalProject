@@ -18,7 +18,7 @@ class Entity {
 		int difficulty = 0; // For the dificulty of the game
 
 		virtual void update(SDL_Renderer *){}; // Inherited function to update position and render entity to screen
-		bool init(SDL_Texture *text, SDL_Renderer *renderer, int startX, int startY, int width, int height); // Will set the texture and rectangle size
+		void init(SDL_Texture *text, SDL_Renderer *renderer, int startX, int startY, int width, int height); // Will set the texture and rectangle size
 };
 
 // Player class that inherits from Entity

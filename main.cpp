@@ -183,8 +183,8 @@ int main(){
 
 		// spawn new asteroids
 		for(int i=0; i<numAsteroids ; i++){
-			// 22 is max size of entities on the screen
-			if(entities.size() > 22) break;
+			// 16 is max size of entities on the screen
+			if(entities.size() > 16) break;
 			
 			// create new random asteroids
 			tmp = new Asteroid;
@@ -202,6 +202,24 @@ int main(){
 			entities.insert(tmp);
 		}
 
+		// if little asteroids on screen, spawn more
+		if(entities.size() <= 4){
+			// create new random asteroids
+			tmp = new Asteroid;
+			tmp->init(asteroid, gRenderer, randomXpos(generator), randomYpos(generator), randomAsteroidSize(generator), randomAsteroidSize(generator));
+
+			// set the difficulty based on the current score
+			if(sk.score < 1000 && sk.score > 0) tmp->difficulty=0;
+			else if(sk.score > 1000 && sk.score < 2000) tmp->difficulty=1; 
+			else if(sk.score > 2000 && sk.score < 3000) tmp->difficulty=2;
+			else if(sk.score > 3000 && sk.score < 4000) tmp->difficulty=3;
+			else if(sk.score > 4000 && sk.score < 5000) tmp->difficulty=4;
+			else if(sk.score > 5000) tmp->difficulty=5;
+
+			// insert into entities
+			entities.insert(tmp);
+	
+		}
 
 		// clear Screen
 		SDL_RenderClear( gRenderer );

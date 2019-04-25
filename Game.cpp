@@ -16,7 +16,7 @@ Entity::Entity(){
 }
 
 // Entity init
-bool Entity::init(SDL_Texture *text, SDL_Renderer *renderer, int startX, int startY, int width, int height){
+void Entity::init(SDL_Texture *text, SDL_Renderer *renderer, int startX, int startY, int width, int height){
 	// set texture to text
 	t = text;
 	// set SDL_Rect values
