@@ -1,0 +1,21 @@
+Damian Seals
+
+Team TBD
+CS302
+Super Space Game!!
+
+Final Time Log:
+
+Time:	Started:		Stopped:		Date:			Worked On:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2hrs	2:30 PM			4:30 PM			3/25/2019		Rubric, Library Research, Lazyfoo tutorial #1
+4hrs	3:00 PM			7:00 PM			3/28/2019		Lazyfoo Tutorials #1 through #4
+4hrs	12:45 PM		4:45 PM			4/7/2019		Lazyfoo Tutorials #5 through #8
+2hrs	2:00 PM			4:00 PM			4/10/2019		Team Meeting, progress check
+2hrs	1:45 PM			3:45 PM			4/17/2019		Team Meeting, Powerpoint, additions to game
+2hrs	2:00 PM			4:00 PM			4/22/2019		Demoed it for Lab, ensured it works on my machine
+1hr	9:30 PM			10:30 PM		4/26/2019		Did Documentation
+
+Total Time:
+
+17 hrs
