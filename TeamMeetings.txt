@@ -1,0 +1,30 @@
+Damian Seals
+Justin Langston
+Andrew Artates
+
+Team TBD Meetings:
+
+April 2   2:15 PM to 3:15 PM:
+	All three of us were present. Damian andJustin went over what we each came up with
+for Challenge 08, showed it to each other and talked about how to move forward. We decided
+each of us should keep moving forward with the Lazyfoo Tutorials as much as possible still
+individually.
+
+April 10  3:00 PM to 4:00 PM:
+	All three of us were present. At this point, we had all been a little busy with
+The project and the challenge, so we hadn't made much progress. That being said, Damian
+updated his program to turn images into textures, and Justin updated his program to 
+handle the movement of an object on the screen when a key is pressed. We discussed our
+plan to buckle down and put forth more time as we got done with the project and the 
+challenge.
+
+April 17  1:45 PM to 3:45 PM:
+	Again, all three of us were present. At this point, Justin had managed to put
+forth more time toward the project than Andrew or Damian, and had made significant 
+progress, so we all collectively decided to use his program as our base starting ground
+to implement more features on top of, since his program was the most cohesive amongst the
+three of us. We collectively worked on the BYODS presentation during this meeting, and 
+also designated tasks. Since Justin had put forth the most time, we designated Damian and
+Andrew to augment the code in order to add more features such as increasing difficulty and
+fixing bugs.
+
